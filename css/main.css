@@ -30,8 +30,8 @@ body {
 .main-menu-text img {
     height: 25vh;
     max-height: 25vh;
-    width: 25vh;
-    max-width: 25vh;
+    width: 33.3333333vh;
+    max-width: 33.3333333vh;
     justify-content: center;
     align-content: center;
     display: flex;

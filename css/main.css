@@ -27,7 +27,7 @@ body {
     padding-bottom: 0.45vh;
 }
 
-.main-menu-text img {
+.main-menu-text .image {
     height: 25vh;
     max-height: 25vh;
     width: 33.3333333vh;
@@ -38,4 +38,5 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+
 }

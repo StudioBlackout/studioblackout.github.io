@@ -69,7 +69,7 @@ body {
     min-height: 100%;
     max-height: 100%;
     background-position: top center;
-    background-size: cover;
+    background-size: contain;
     background-image: url("../img/Website Background.png");
     background-repeat: no-repeat;
 }

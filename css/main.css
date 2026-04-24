@@ -1,13 +1,14 @@
 body {
     background-position: top center;
     background-size: cover;
-    background-image: url("../img/Website Background.png");
+    background-color: #E2D69E;
+    margin: 0px;
 }
 
 
 .main-menu-text {
-    padding-left:29vw;
-    padding-right:29vw;
+    padding-left: 29vw;
+    padding-right: 29vw;
     font-size: 3vh;
 }
 
@@ -20,6 +21,8 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    margin: 0px;
+    padding-block-start: 0.67em;
 }
 
 .main-menu-text p {
@@ -38,7 +41,6 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: flex-start;
-
 }
 
 
@@ -50,10 +52,28 @@ body {
     user-select: none;
 }
 
-.select-enable { 
+.select-enable {
     -webkit-user-select: text;
     -khtml-user-select: text;
     -moz-user-select: text;
     -o-user-select: text;
     user-select: text;
+}
+
+
+.background-image {
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-position: top center;
+    background-size: cover;
+    background-image: url("../img/Website Background.png");
+    background-repeat: no-repeat;
+}
+
+header {
+
 }

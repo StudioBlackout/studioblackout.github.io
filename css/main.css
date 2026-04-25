@@ -123,6 +123,7 @@ body {
     left: 0px;
     top: 0px;
     position: fixed;
+    min-height: 3vh;
 }
 
 .header-image img {

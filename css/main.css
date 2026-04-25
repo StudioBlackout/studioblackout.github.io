@@ -131,3 +131,37 @@ body {
     max-height: 3vh;
     min-height: 3vh;
 }
+
+
+
+
+.game-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2%;
+    padding: 2%;
+    width: 96%;
+    border: 2px solid black;
+    flex-wrap: nowrap;
+}
+
+.game-icon {
+    width: 25vw;
+    max-width: 25vw;
+    min-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.game-text {
+    max-width: 65vw;
+    min-width: 300px;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+}
